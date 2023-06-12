@@ -1,0 +1,256 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dbd851011cb24e42ad399d917041110, type: 3}
+  m_Name: SkillInfoData
+  m_EditorClassIdentifier: 
+  attackSkillInfos:
+  - skillType: 0
+    name: "\u65CB\u5203"
+    icon: {fileID: -620726301, guid: 428d403c7f874f0498c2af7765ee2b09, type: 3}
+    desc:
+    - "\u5728\u6697\u5F71\u9A7B\u7559\u65F6\u751F\u6210\n\u4E00\u67C4\u65CB\u5203\uFF0C\u5207\u5272\u9020\n\u621050\u70B9\u56FA\u5B9A\u4F24\u5BB3"
+    - "\u65CB\u5203\u4F24\u5BB3\u63D0\u5347\n100%"
+    - "\u65CB\u5203\u8F6C\u901F\u63D0\u5347\n100%"
+    - "\u518D\u751F\u6210\u4E00\u67C4\u65CB\u5203"
+  - skillType: 1
+    name: "\u6536\u5272"
+    icon: {fileID: -1841247754, guid: 462deb8e877e8ff4da0819d6828ad0c0, type: 3}
+    desc:
+    - "\u6697\u5F71\u6536\u56DE\u8FC7\u7A0B\u7684\u6536\n\u5272\u4F24\u5BB3\u63D0\u534720%"
+    - "\u6536\u5272\u4F24\u5BB3\u968F\u6697\u5F71\u4F53\n\u79EF\u63D0\u5347\uFF08\u6BCF1%\u4F53\u79EF\n\u589E\u5E45\u5E26\u67651%\u4F24\u5BB3\n\u63D0\u5347\uFF09"
+    - "\u6697\u5F71\u8FD4\u56DE\u65F6\u5C06\u7A7F\u8D8A\n\u4F60\u7EE7\u7EED\u884C\u8FDB"
+    - "\u6536\u5272\u4F24\u5BB3\u968F\u4F60\u7684\u7B49\n\u7EA7\u63D0\u5347\uFF0C\u9644\u52A0\u654C\u4EBA\n\u6700\u5927\u751F\u547D\u767E\u5206\u6BD4\u4F24\n\u5BB3"
+  - skillType: 2
+    name: "\u9ED1\u5B50"
+    icon: {fileID: 1736359013, guid: 99f538004e2918d468582afeec7ccf38, type: 3}
+    desc:
+    - "\u6697\u5F71\u53EC\u56DE\u65F6\u4EA7\u751F\u4E00\n\u6B21\u7206\u70B8\uFF0C\u9020\u62104\u500D\n\u6697\u5F71\u529B\u91CF\u4F24\u5BB3"
+    - "\u4F60\u53EF\u4EE5\u901A\u8FC7\u89E6\u78B0\u63A8\n\u79FB\u9A7B\u7559\u7684\u6697\u5F71\uFF0C\u5BF9\n\u8DEF\u5F84\u4E0A\u7684\u654C\u4EBA\u9020\u6210\n10\u500D\u6697\u5F71\u529B\u91CF\u4F24\u5BB3"
+    - "\u6697\u5F71\u62B5\u8FBE\u76EE\u6807\u70B9\u65F6\n\u4EA7\u751F\u4E00\u6B21\u7206\u70B8\uFF0C\u9020\n\u62102\u500D\u6697\u5F71\u529B\u91CF\u4F24\n\u5BB3"
+    - "\u6697\u5F71\u53EC\u56DE\u65F6\u7559\u4E0B\u53EF\n\u62FE\u53D6\u7684\u7206\u70B8\u79CD\u5B50\n\uFF0815\u79D2\u540E\u6D88\u5931\uFF09\uFF0C\n\u62FE\u53D6\u65F6\u4EA7\u751F\u7206\u70B8\uFF0C\n\u9020\u62102\u500D\u6697\u5F71\u529B\u91CF\n\u4F24\u5BB3"
+  - skillType: 3
+    name: "\u53CD\u6208"
+    icon: {fileID: -693589283, guid: b6bea9edf67b06040b4e372ac0caac5e, type: 3}
+    desc:
+    - "\u91CA\u653E\u6697\u5F71\u65F6\uFF0C\n\u5728\u53D1\u5C04\u65B9\u5411\u4E0A\n\uFF08140\xB0\u6247\u5F62\uFF09\u51FB\u9000\n\u9644\u8FD1\u7684\u654C\u4EBA"
+    - "\u6697\u5F71\u56DE\u5230\u4F60\u8EAB\u8FB9\u540E\n\uFF0C\u6CBF\u9F20\u6807\u6307\u9488\u65B9\u5411\n\u91CA\u653E\u4E00\u6B21\u6247\u5F62\u8109\u51B2\n\uFF0870\xB0\u6247\u5F62\uFF09"
+    - "\u57FA\u4E8E\u6697\u5F71\u884C\u8FDB\u901F\u5EA6\n\u4E3A\u6247\u5F62\u8109\u51B2\u9644\u52A0\u989D\n\u5916\u4F24\u5BB3"
+    - "\u5927\u5E45\u62D3\u5C55\u6247\u5F62\u8109\u51B2\n\u8303\u56F4\uFF08210\xB0\u6247\u5F62\uFF09"
+  - skillType: 4
+    name: "\u5669\u7130"
+    icon: {fileID: 21300000, guid: 56c814e17795b22428c45a0a885ffc9d, type: 3}
+    desc:
+    - "\u6697\u5F71\u6536\u5272\u5C06\u5F15\u71C3\u654C\n\u4EBA\uFF0C\u6BCF0.5\u79D2\u9020\u6210\n30\u70B9\u56FA\u5B9A\u4F24\u5BB3\uFF0C\n\u6301\u7EED2.5\u79D2"
+    - "\u6697\u5F71\u91CA\u653E\u65F6\u4F34\u968F\u51B2\n\u51FB\u6027\u7684\u7206\u71C3\uFF0C\u5F15\u71C3\n\u9644\u8FD1\u7684\u654C\u4EBA"
+    - "\u5669\u7130\u5C06\u9020\u6210\u654C\u4EBA\u6700\n\u5927\u751F\u547D\u767E\u5206\u6BD4\u4F24\u5BB3\n\uFF0C\u4F60\u7684\u6BCF\u4E00\u70B9\u751F\u547D\n\u4E0A\u9650\u90FD\u5C06\u589E\u5E45\u5669\u7130\n\u4F24\u5BB3\uFF080.6%\uFF09"
+    - "||\u53EF\u91CD\u590D\u589E\u5E45||\n\u5669\u7130\u71C3\u70E7\u9891\u7387\n\u63D0\u534720%"
+  - skillType: 5
+    name: "\u98DE\u77E2"
+    icon: {fileID: 1115882985, guid: edd1f7a84f456634d8ee5b02b36c0d1d, type: 3}
+    desc:
+    - "\u6697\u5F71\u5728\u9A7B\u7559\u65F6\u5C04\u51FA\n\u6697\u5F71\u7BAD\uFF0C\u6BCF\u79D2\u5C04\u51FA\n3\u652F\u6697\u5F71\u7BAD\uFF0C\u9020\u6210\n20\u70B9\u56FA\u5B9A\u4F24\u5BB3"
+    - "\u6697\u5F71\u7BAD\u6570\u91CF+4\uFF0C\n\u4F24\u5BB3\u63D0\u534750%"
+    - "\u6697\u5F71\u7BAD\u53D1\u5C04\u9891\u7387\u5728\n\u6697\u5F71\u9A7B\u7559\u671F\u95F4\u6301\u7EED\n\u63D0\u5347\uFF0C\u6BCF\u79D2\u6700\u591A\u6267\n\u884C10\u8F6E\u53D1\u5C04"
+    - "\u5BF9\u76D1\u89C6\u8303\u56F4\u5185\u7684\u5168\n\u90E8\u654C\u4EBA\u5C04\u51FA\u6697\u5F71\u7BAD"
+  - skillType: 6
+    name: "\u6C79\u6D6A"
+    icon: {fileID: 1098283827, guid: 30515cc3e96f1c747aeb0ed107ff2361, type: 3}
+    desc:
+    - "\u6697\u5F71\u5728\u9A7B\u7559\u65F6\u5C04\u51FA\n\u6697\u5F71\u6CE2\uFF0C\u53D1\u5C04\u95F4\u9694\n1.5\u79D2\uFF0C\u6697\u5F71\u6CE2\u9020\u6210\n50\u70B9\u56FA\u5B9A\u4F24\u5BB3\uFF0C\u6700\n\u591A\u7A7F\u900F3\u4E2A\u654C\u4EBA"
+    - "\u6697\u5F71\u6CE2\u4F24\u5BB3\u63D0\u5347\n100%"
+    - "\u6697\u5F71\u6CE2\u5177\u6709\u65E0\u9650\u7A7F\n\u900F\u6B21\u6570"
+    - "\u6697\u5F71\u6CE2\u53D1\u5C04\u9891\u7387\n\u63D0\u5347100%"
+  - skillType: 7
+    name: "\u63A8\u8FDB"
+    icon: {fileID: 21300000, guid: 7c3a88dda5dd451488525a54d792f95d, type: 3}
+    desc:
+    - "\u6697\u5F71\u53D1\u5C04\u671F\u95F4\u5BF9\u7A7F\n\u8D8A\u7684\u654C\u4EBA\u9020\u62102\u500D\n\u6697\u5F71\u529B\u91CF\u4F24\u5BB3"
+    - "\u6697\u5F71\u5728\u53D1\u5C04\u671F\u95F4\u5C06\n\u649E\u9000\u81F3\u591A4\u540D\u654C\u4EBA"
+    - "\u6BCF\u8FC75\u79D2\uFF0C\u4F60\u53EF\u4EE5\n\u53D1\u5C04\u4E00\u6B21\u6697\u5F71\u4E4B\u5899\n\uFF0C\u51FB\u9000\u654C\u4EBA\u5E76\u9020\u6210\n4.5\u500D\u6697\u5F71\u529B\u91CF\u4F24\n\u5BB3\uFF0C\u6697\u5F71\u4E4B\u5899\u57283\n\u79D2\u540E\u6D88\u5931"
+    - "\u514B\u9686\u51FA\u53E6\u4E00\u7EC4\u6697\u5F71\n\u4E4B\u5899\uFF0C\u5B83\u5C06\u6CBF\u76F8\u53CD\n\u65B9\u5411\u53D1\u51FA"
+  assistantSkillInfos:
+  - skillType: 8
+    name: "\u805A\u96C6"
+    icon: {fileID: 676187549, guid: 9cee9eb60e50a9d4cae58343846e06ed, type: 3}
+    desc:
+    - "\u5145\u80FD\u901F\u5EA6\u63D0\u5347\n100%"
+    - "\u5B8C\u6210100\u6B21\u5145\u80FD\u540E\n\uFF0C\u5145\u80FD\u91CF+1"
+    - "\u80FD\u591F\u5BF9\u6697\u5F71\u8FDB\u884C\u6700\n\u591A50%\u7684\u9884\u5145\u80FD"
+    - "\u5145\u80FD\u91CF+1"
+  - skillType: 9
+    name: "\u55A7\u54D7"
+    icon: {fileID: 246147916, guid: 54760e447bbc76240a639710b36a89ee, type: 3}
+    desc:
+    - "\u6697\u5F71\u9A7B\u7559\u65F6\u95F4\n+2\u79D2"
+    - "\u73AF\u7ED5\u6697\u5F71\u751F\u6210\u51CF\u901F\n\u5E26\uFF0C\u5BF9\u654C\u4EBA\u9020\u6210\n20%\u51CF\u901F"
+    - "\u6697\u5F71\u9A7B\u7559\u65F6\u95F4\n+2\u79D2"
+    - "\u6697\u5F71\u5C06\u5728\u9A7B\u7559\u671F\u95F4\n\u6301\u7EED\u5438\u5F15\u9644\u8FD1\u654C\u4EBA"
+  - skillType: 10
+    name: "\u5B9E\u50CF"
+    icon: {fileID: -1376086381, guid: 705ddfe13f4f919439a994c0845f872e, type: 3}
+    desc:
+    - "\u6697\u5F71\u529B\u91CF+40"
+    - "\u6697\u5F71\u529B\u91CF+40"
+    - "\u6697\u5F71\u529B\u91CF\u63D0\u5347\n50%"
+    - "\u6697\u5F71\u529B\u91CF\u63D0\u5347\n50%"
+  - skillType: 11
+    name: "\u5E7D\u7075"
+    icon: {fileID: 21300000, guid: af3a507850de7f8408c9cf82daeba02b, type: 3}
+    desc:
+    - "\u6697\u5F71\u9A7B\u7559\u65F6\u95F4\n-0.3\u79D2"
+    - "\u6697\u5F71\u884C\u8FDB\u901F\u5EA6+5"
+    - "\u6697\u5F71\u9A7B\u7559\u65F6\u95F4\n-0.5\u79D2"
+    - "\u6697\u5F71\u884C\u8FDB\u901F\u5EA6+10"
+  - skillType: 12
+    name: "\u65E0\u7F81"
+    icon: {fileID: 76933652, guid: 5b342bce098bd48468e47a54b0af50cd, type: 3}
+    desc:
+    - "\u6697\u5F71\u4F53\u79EF\u63D0\u5347\n80%"
+    - "\u6697\u5F71\u53D1\u5C04\u8DDD\u79BB+2"
+    - "\u884C\u8FDB\u4E2D\u7684\u6697\u5F71\u5C06\u51FB\n\u6655\u654C\u4EBA3\u79D2"
+    - "\u6697\u5F71\u4F53\u79EF\u968F\u884C\u8FDB\u8DDD\n\u79BB\u53D8\u5927\uFF0C\u6700\u59274.5\n\u500D\u57FA\u7840\u4F53\u79EF"
+  - skillType: 13
+    name: "\u514B\u9686"
+    icon: {fileID: -782113192, guid: 544cf9d94a07eb247940d818edc272d3, type: 3}
+    desc:
+    - "\u884D\u751F\u53D1\u5C04\u7269\u6570\u91CF\n+2"
+    - "\u884D\u751F\u53D1\u5C04\u7269\u4F53\u79EF\u589E\n\u52A0100%"
+    - "\u884D\u751F\u53D1\u5C04\u7269\u6570\u91CF\n+2"
+    - "\u6697\u5F71\u5728\u53EC\u56DE\u65F6\u6709\n50%\u51E0\u7387\u7559\u4E0B\u590D\n\u5236\u4F53\uFF08\u590D\u5236\u4F53\u4E0D\u4F1A\n\u88AB\u518D\u6B21\u590D\u5236\uFF09"
+  - skillType: 14
+    name: "\u65B0\u751F"
+    icon: {fileID: 1010960583, guid: 4be9c70233aa2f34aab75dea57128b1d, type: 3}
+    desc:
+    - "\u751F\u547D\u4E0A\u9650+4"
+    - "\u6BCF60\u79D2\u6062\u590D1\u751F\u547D\n\uFF0C\u6062\u590D\u6EA2\u51FA\u65F6\u5C06\u589E\n\u52A0\u751F\u547D\u4E0A\u9650"
+    - "\u6BCF\u51FB\u6740400\u654C\u4EBA\u6062\n\u590D1\u751F\u547D"
+    - "\u4F60\u5C06\u5728\u4E0B\u4E00\u6B21\u53D7\u5230\n\u81F4\u547D\u4F24\u5BB3\u65F6\u91CD\u751F"
+  - skillType: 15
+    name: "\u6D77\u7EB3"
+    icon: {fileID: 402368935, guid: c28d6af3fc73bd742a23779efa33cecc, type: 3}
+    desc:
+    - "\u62FE\u53D6\u534A\u5F84+0.5"
+    - "\u79FB\u52A8\u901F\u5EA6+1"
+    - "\u62FE\u53D6\u534A\u5F84+1"
+    - "\u6BCF\u8FC780\u79D2\uFF0C\u5BF9\u5168\u5C4F\n\u8303\u56F4\u8FDB\u884C\u4E00\u6B21\u8D85\u7EA7\n\u62FE\u53D6"
+  basicDamage: 40
+  playerMaxHP: 5
+  playerSpeed: 3
+  shadowChargeCount: 1
+  basicShadowScale: 1
+  collectRadius: 1.2
+  shadowSetRadius: 2.5
+  shadowChargeCD: 1
+  shadowStayingDuration: 1
+  missileCount: 1
+  flyingSpeed: 30
+  missileScale: 1
+  getHurtFreezeTime: 0.15
+  getHurtBeatRadius: 4
+  getHurtBeatEnemyDist: 1.5
+  getHurtBeatEnemySpeed: 3
+  getHurtInvincibleDuration: 1
+  whirlLength_Whirl: 2.5
+  whirlAngularVelocity1_Whirl: 360
+  whirlDamage1_Whirl: 50
+  whirlDamage2_Whirl: 100
+  whirlAngularVelocity2_Whirl: 720
+  reapDamageMultiplier_Reap: 1.2
+  scaleDamageMultiplier_Reap: 1
+  reflectFlyingDist_Reap: 9
+  gradeMultiplier_Reap: 0.0033
+  recallDamageRadius_Sunspot: 2.5
+  recallDamageMultiplier_Sunspot: 4
+  pushDist_Sunspot: 9
+  pushSpeed_Sunspot: 30
+  pushDamageMultiplier_Sunspot: 10
+  stopDamageRadius_Sunspot: 3
+  stopDamageMultiplier_Sunspot: 2
+  explodeSeedStayingTime_Sunspot: 15
+  pushCentralAngle_TurnWeaponAround: 140
+  pushRadius_TurnWeaponAround: 2
+  pushBeatDist_TurnWeaponAround: 2
+  pushBeatDuration_TurnWeaponAround: 1
+  chopCentralAngle_TurnWeaponAround: 70
+  chopRadius_TurnWeaponAround: 3
+  chopDamageMultiplier_TurnWeaponAround: 2
+  flyingSpeedDamageMultiplier_TurnWeaponAround: 0.002
+  expandChopCentralAngle_TurnWeaponAround: 210
+  expandChopRadius_TurnWeaponAround: 4
+  burnDuration_NightmarishFlame: 2.5
+  damageInterval_NightmarishFlame: 0.5
+  burnDamage_NightmarishFlame: 30
+  burnRadius_NightmarishFlame: 3
+  hpDamageMulitiplier_NightmarishFlame: 0.006
+  damageIntervalMulitiplier_NightmarishFlame: 0.83
+  arrowInterval_FlyingArrow: 1
+  missileCountIncrease1_FlyingArrow: 2
+  watchRadius_FlyingArrow: 3
+  damage1_FlyingArrow: 20
+  flyingSpeed_FlyingArrow: 6
+  shootRange_FlyingArrow: 5
+  damage2_FlyingArrow: 30
+  missileCountIncrease2_FlyingArrow: 4
+  arrowIntervalUpperLimit_FlyingArrow: 1
+  arrowIntervalLowerLimit_FlyingArrow: 0.1
+  waveInterval1_RoughSea: 1.5
+  watchRadius_RoughSea: 6
+  penetrateCount_RoughSea: 3
+  damage1_RoughSea: 50
+  flyingSpeed_RoughSea: 5
+  shootRange_RoughSea: 15
+  damage2_RoughSea: 100
+  waveInterval2_RoughSea: 0.75
+  damageMultiplier_PushOn: 2
+  beatCount_PushOn: 4
+  beatDist_PushOn: 3.5
+  beatDuration_PushOn: 1
+  missileChargeCD_PushOn: 5
+  missileJoinCount_PushOn: 50
+  missileJoinDist_PushOn: 0.3
+  missileDamageMultiplier_PushOn: 4.5
+  missileStayingDuration_PushOn: 3
+  chargeCDDecrease_Gather: 0.5
+  needChargedCount_Gather: 100
+  maxChargeCountIncrease1_Gather: 1
+  prechargeDuration_Gather: 2.5
+  maxPrecharge_Gather: 0.5
+  maxChargeCountIncrease2_Gather: 1
+  stayingDurationIncrease1_ConfusedNoise: 2
+  decelerateRadius_ConfusedNoise: 2
+  decelerateMultiplier_ConfusedNoise: 0.2
+  stayingDurationIncrease2_ConfusedNoise: 2
+  basicDamageIncrease1_RealImage: 40
+  basicDamageIncrease2_RealImage: 40
+  basicDamageMultiplierIncrease1_RealImage: 0.5
+  basicDamageMultiplierIncrease2_RealImage: 0.5
+  stayingDurationDecrease1_Ghost: 0.3
+  flyingSpeedIncrease1_Ghost: 5
+  stayingDurationDecrease2_Ghost: 0.5
+  flyingSpeedIncrease2_Ghost: 10
+  scaleIncrease_Unbridled: 0.8
+  setRadiusIncrease_Unbridled: 2
+  vertigoDuration_Unbridled: 3
+  flyingDistScaleMultiplier_Unbridled: 0.3
+  scaleUpperLimit_Unbridled: 4.5
+  missileCountIncrease1_Clone: 2
+  missileScaleIncrease_Clone: 1
+  missileCountIncrease2_Clone: 2
+  cloneProbability_Clone: 0.5
+  maxHPIncrease_Reborn: 4
+  healDuration_Reborn: 60
+  healKillCount_Reborn: 400
+  collectRadiusIncrease1_AllRiversRunIntoSea: 0.5
+  collectRadiusIncrease2_AllRiversRunIntoSea: 1
+  speedIncrease_AllRiversRunIntoSea: 1
+  collectCD_AllRiversRunIntoSea: 80
+  absorbRadius_AllRiversRunIntoSea: 10

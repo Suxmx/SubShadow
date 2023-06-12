@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 732d5335e401f854fbe63b16f1335dc6
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _InkSpreadNoiseTexture: {fileID: 2800000, guid: cd21d0de17dcd734691f79979be13330,
+      type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

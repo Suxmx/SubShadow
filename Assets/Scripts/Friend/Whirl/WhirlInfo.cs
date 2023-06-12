@@ -1,0 +1,10 @@
+[System.Serializable]
+public class WhirlInfo
+{
+    [Label("»–≥§")]
+    public float whirlLength;
+    [Label("–˝»–Ω«ÀŸ∂»")]
+    public float whirlAngularVelocity;
+    [Label("»–∏Ó…À∫¶")]
+    public float whirlDamage;
+}

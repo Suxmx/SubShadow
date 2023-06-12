@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a26609671668864fbbf8f3a3eb08408, type: 3}
+  m_Name: SoundData
+  m_EditorClassIdentifier: 
+  soundGroups:
+  - groupType: 1
+    sounds:
+    - name: ShadowChargeFinish
+      audioClip: {fileID: 8300000, guid: feec276dd9b4d114eba6a2851c3dc3d7, type: 3}
+      initVolume: 0.6
+      playOnAwake: 0
+      loop: 0
+      pitch: 3
+    - name: GetBackShadow
+      audioClip: {fileID: 8300000, guid: fa4c9f55a0606fe4189bb65acb76d189, type: 3}
+      initVolume: 0.3
+      playOnAwake: 0
+      loop: 0
+      pitch: -1
+    - name: PointerClickUI
+      audioClip: {fileID: 8300000, guid: 3738f632094f02946a70eecd0d420f4a, type: 3}
+      initVolume: 1
+      playOnAwake: 0
+      loop: 0
+      pitch: 1
+    - name: PointerOnUI
+      audioClip: {fileID: 8300000, guid: 566f7f8575d05c04aa11d9626dd574dd, type: 3}
+      initVolume: 1
+      playOnAwake: 0
+      loop: 0
+      pitch: 1
+    - name: PlayerHurt
+      audioClip: {fileID: 8300000, guid: a7a92399fc4d18b46bcaf0845857dffc, type: 3}
+      initVolume: 0.6
+      playOnAwake: 0
+      loop: 0
+      pitch: 1
+    - name: EnemyDie
+      audioClip: {fileID: 8300000, guid: d2be146421c0488449f9a33099f2630b, type: 3}
+      initVolume: 0.3
+      playOnAwake: 0
+      loop: 0
+      pitch: 0.7
+    - name: SelfExplosion_Preexplode
+      audioClip: {fileID: 8300000, guid: 6eb2e7138b3883b46969e15478fa495a, type: 3}
+      initVolume: 0.5
+      playOnAwake: 0
+      loop: 0
+      pitch: 0.8
+    - name: SelfExplosion_Explode
+      audioClip: {fileID: 8300000, guid: 4a107d50b2fdb954d9fe21c35492b396, type: 3}
+      initVolume: 0.15
+      playOnAwake: 0
+      loop: 0
+      pitch: 1
+    - name: LevelUp
+      audioClip: {fileID: 8300000, guid: 9acc2e21c93add94f9484784f0d8c98f, type: 3}
+      initVolume: 0.2
+      playOnAwake: 0
+      loop: 0
+      pitch: 0.8
+    - name: EnemyHit
+      audioClip: {fileID: 8300000, guid: ecddeea851428fb49a53bac1157a2d83, type: 3}
+      initVolume: 0.2
+      playOnAwake: 0
+      loop: 0
+      pitch: 1
+    - name: ReleaseShadow
+      audioClip: {fileID: 8300000, guid: 83a33468fb178ad4b9c92d4bcdf4737f, type: 3}
+      initVolume: 0.3
+      playOnAwake: 0
+      loop: 0
+      pitch: 1
+    - name: TurnWeaponAround_Pulse
+      audioClip: {fileID: 8300000, guid: 1db74152af7a29946837e38dbf0c4fc3, type: 3}
+      initVolume: 0.2
+      playOnAwake: 0
+      loop: 0
+      pitch: 1
+    - name: FlyingArrow_Missile
+      audioClip: {fileID: 8300000, guid: 3e07810b6ce34474193b2f313a1586d8, type: 3}
+      initVolume: 0
+      playOnAwake: 0
+      loop: 0
+      pitch: 1
+    - name: PushOn_Release
+      audioClip: {fileID: 8300000, guid: be99a6d2ccce2774da5d6810ea0d365c, type: 3}
+      initVolume: 0.5
+      playOnAwake: 0
+      loop: 0
+      pitch: 1
+    - name: Reborn_Reborn
+      audioClip: {fileID: 8300000, guid: 1106a0c301e61b6489d978831a9dae9c, type: 3}
+      initVolume: 0.5
+      playOnAwake: 0
+      loop: 0
+      pitch: 1
+    - name: PlayerPickUp
+      audioClip: {fileID: 8300000, guid: 20932a48800db81429c5676a529a7d83, type: 3}
+      initVolume: 0.4
+      playOnAwake: 0
+      loop: 0
+      pitch: 0.8
+    - name: SunSpot_Explode
+      audioClip: {fileID: 8300000, guid: 7f9c53929602d5c4f9da71a89e4531e7, type: 3}
+      initVolume: 0.15
+      playOnAwake: 0
+      loop: 0
+      pitch: 1
+    - name: SunSpot_TouchShadow
+      audioClip: {fileID: 8300000, guid: 83a33468fb178ad4b9c92d4bcdf4737f, type: 3}
+      initVolume: 0.3
+      playOnAwake: 0
+      loop: 0
+      pitch: 1
+  - groupType: 0
+    sounds:
+    - name: MainMenu
+      audioClip: {fileID: 8300000, guid: 7b5a7208a02b32c4e80a78fa9d5a0409, type: 3}
+      initVolume: 1
+      playOnAwake: 0
+      loop: 1
+      pitch: 1
+    - name: FightBGM
+      audioClip: {fileID: 8300000, guid: ee641d765d201d54d94c72ea4c5fcdd0, type: 3}
+      initVolume: 1
+      playOnAwake: 0
+      loop: 1
+      pitch: 1
+    - name: SuccessBGM
+      audioClip: {fileID: 8300000, guid: 271e1dfaf68b591468fa17f6ff23d926, type: 3}
+      initVolume: 1
+      playOnAwake: 0
+      loop: 1
+      pitch: 1
+    - name: PlayerDieBGM
+      audioClip: {fileID: 8300000, guid: 6c201e3c0d3f87447bddac3d9948e25e, type: 3}
+      initVolume: 1
+      playOnAwake: 0
+      loop: 0
+      pitch: 1

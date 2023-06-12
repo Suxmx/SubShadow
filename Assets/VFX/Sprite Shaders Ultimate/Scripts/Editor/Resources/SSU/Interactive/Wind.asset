@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 344c00355f060794ea582079ebb0a81f, type: 3}
+  m_Name: Wind
+  m_EditorClassIdentifier: 
+  shaderDescription: "<b>Information:</b>\n- Bends and squishes the sprite.\n- Supports
+    both physical interaction and dynamic wind.\n- Combines well with the <b>UV Distortion</b>
+    shader.\n- Requires a single <b>WindManager</b> component in the scene.\n\n<b>Components:</b>
+    (at least <b>one</b> is required)\n- Physical interaction requires a <b>InteractiveWind</b>
+    component.\n- To fix parallax issues enable <b>Is Parallax</b> and\n   add the
+    <b>WindParallax</b> component to the object.\n- If none of the above were added,
+    add the <b>ShaderInstancer</b> component.\n\n<b>Texture Adjusting:</b>\n- This
+    shader does not support sprite sheets or atlases.\n- Set the texture mesh type
+    to <b>full rect</b>.\n- Expand texture horizontally if pixels clip out."
+  titles:
+  - property: Rotation
+    title: Rotation
+  - property: Squish Factor
+    title: Squishing
+  - property: Is Parallax
+    title: Parallax Fix
+  suffixInformation:
+  - property: X Position
+    information: '- Requires the <b>ParallaxWind</b> script attached to the sprite.'
+  showIfs:
+  - toggleVariable: Is Parallax
+    shownVariables:
+    - X Position
+    reverse: 0
+  requiredComponents:
+  - InteractiveWind
+  - BoxCollider2D

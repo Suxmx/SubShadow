@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: cdc124520b83239418ad644c2e96fe11
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _MetalNoiseTexture: {fileID: 2800000, guid: cd21d0de17dcd734691f79979be13330,
+      type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

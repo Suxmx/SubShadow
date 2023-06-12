@@ -1,0 +1,571 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82c85c934ed2000458c4dc6d6ead3daf, type: 3}
+  m_Name: EnemyGroupData
+  m_EditorClassIdentifier: 
+  enemyGroupInfos:
+  - enemyIndexList: 00000000
+    enemyOffsets: []
+    spawnInterval: 1
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 01000000
+    enemyOffsets: []
+    spawnInterval: 1
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 23000000
+    enemyOffsets: []
+    spawnInterval: 10
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 02000000
+    enemyOffsets: []
+    spawnInterval: 0.6666667
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 24000000
+    enemyOffsets: []
+    spawnInterval: 10
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 03000000
+    enemyOffsets: []
+    spawnInterval: 0.5
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 25000000
+    enemyOffsets: []
+    spawnInterval: 10
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 15000000
+    enemyOffsets: []
+    spawnInterval: 125
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 04000000
+    enemyOffsets: []
+    spawnInterval: 0.33333334
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 26000000
+    enemyOffsets: []
+    spawnInterval: 5
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 05000000
+    enemyOffsets: []
+    spawnInterval: 0.25
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 27000000
+    enemyOffsets: []
+    spawnInterval: 10
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 16000000
+    enemyOffsets: []
+    spawnInterval: 125
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 06000000
+    enemyOffsets: []
+    spawnInterval: 0.25
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 28000000
+    enemyOffsets: []
+    spawnInterval: 10
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 19000000
+    enemyOffsets: []
+    spawnInterval: 5
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 07000000
+    enemyOffsets: []
+    spawnInterval: 0.2
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 29000000
+    enemyOffsets: []
+    spawnInterval: 10
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 1a000000
+    enemyOffsets: []
+    spawnInterval: 5
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 08000000
+    enemyOffsets: []
+    spawnInterval: 0.16666667
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 2a000000
+    enemyOffsets: []
+    spawnInterval: 10
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 1b000000
+    enemyOffsets: []
+    spawnInterval: 5
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 09000000
+    enemyOffsets: []
+    spawnInterval: 0.125
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 0a000000
+    enemyOffsets: []
+    spawnInterval: 0.1
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 0b000000
+    enemyOffsets: []
+    spawnInterval: 0.0909
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 2b000000
+    enemyOffsets: []
+    spawnInterval: 10
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 1c000000
+    enemyOffsets: []
+    spawnInterval: 3.3333333
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 0c000000
+    enemyOffsets: []
+    spawnInterval: 0.0909
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 2c000000
+    enemyOffsets: []
+    spawnInterval: 10
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 1d000000
+    enemyOffsets: []
+    spawnInterval: 3.3333333
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 17000000
+    enemyOffsets: []
+    spawnInterval: 125
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 0d000000
+    enemyOffsets: []
+    spawnInterval: 0.083333336
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 2d000000
+    enemyOffsets: []
+    spawnInterval: 10
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 1e000000
+    enemyOffsets: []
+    spawnInterval: 2.5
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 13000000
+    enemyOffsets: []
+    spawnInterval: 0.0769
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 2e000000
+    enemyOffsets: []
+    spawnInterval: 0.5
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 1f000000
+    enemyOffsets: []
+    spawnInterval: 2
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 22000000
+    enemyOffsets: []
+    spawnInterval: 125
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 0f000000
+    enemyOffsets: []
+    spawnInterval: 0.06666667
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 18000000
+    enemyOffsets: []
+    spawnInterval: 125
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 14000000
+    enemyOffsets: []
+    spawnInterval: 0.0588
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 11000000
+    enemyOffsets: []
+    spawnInterval: 0.0566
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 20000000
+    enemyOffsets: []
+    spawnInterval: 1.6666666
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 12000000
+    enemyOffsets: []
+    spawnInterval: 0.05
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  - enemyIndexList: 21000000
+    enemyOffsets: []
+    spawnInterval: 1.6666666
+    spawnCount: 1
+    spawnZone: 1
+    expMultiplier: 1
+  enemyGroupConfigInfos:
+  - startMoment: 0
+    endMoment: 120
+    groupInfoIndex: 0
+    configOn: 1
+  - startMoment: 60
+    endMoment: 180
+    groupInfoIndex: 1
+    configOn: 1
+  - startMoment: 60
+    endMoment: 180
+    groupInfoIndex: 2
+    configOn: 1
+  - startMoment: 120
+    endMoment: 240
+    groupInfoIndex: 3
+    configOn: 1
+  - startMoment: 120
+    endMoment: 240
+    groupInfoIndex: 4
+    configOn: 1
+  - startMoment: 180
+    endMoment: 300
+    groupInfoIndex: 5
+    configOn: 1
+  - startMoment: 180
+    endMoment: 300
+    groupInfoIndex: 6
+    configOn: 1
+  - startMoment: 180
+    endMoment: 300
+    groupInfoIndex: 7
+    configOn: 1
+  - startMoment: 240
+    endMoment: 360
+    groupInfoIndex: 8
+    configOn: 1
+  - startMoment: 240
+    endMoment: 360
+    groupInfoIndex: 9
+    configOn: 1
+  - startMoment: 300
+    endMoment: 420
+    groupInfoIndex: 10
+    configOn: 1
+  - startMoment: 300
+    endMoment: 420
+    groupInfoIndex: 11
+    configOn: 1
+  - startMoment: 300
+    endMoment: 420
+    groupInfoIndex: 12
+    configOn: 1
+  - startMoment: 360
+    endMoment: 480
+    groupInfoIndex: 13
+    configOn: 1
+  - startMoment: 360
+    endMoment: 480
+    groupInfoIndex: 14
+    configOn: 1
+  - startMoment: 360
+    endMoment: 480
+    groupInfoIndex: 15
+    configOn: 1
+  - startMoment: 420
+    endMoment: 540
+    groupInfoIndex: 16
+    configOn: 1
+  - startMoment: 420
+    endMoment: 540
+    groupInfoIndex: 17
+    configOn: 1
+  - startMoment: 420
+    endMoment: 540
+    groupInfoIndex: 18
+    configOn: 1
+  - startMoment: 480
+    endMoment: 600
+    groupInfoIndex: 19
+    configOn: 1
+  - startMoment: 480
+    endMoment: 600
+    groupInfoIndex: 20
+    configOn: 1
+  - startMoment: 480
+    endMoment: 600
+    groupInfoIndex: 21
+    configOn: 1
+  - startMoment: 540
+    endMoment: 660
+    groupInfoIndex: 22
+    configOn: 1
+  - startMoment: 600
+    endMoment: 720
+    groupInfoIndex: 23
+    configOn: 1
+  - startMoment: 660
+    endMoment: 780
+    groupInfoIndex: 24
+    configOn: 1
+  - startMoment: 660
+    endMoment: 780
+    groupInfoIndex: 25
+    configOn: 1
+  - startMoment: 660
+    endMoment: 780
+    groupInfoIndex: 26
+    configOn: 1
+  - startMoment: 720
+    endMoment: 840
+    groupInfoIndex: 27
+    configOn: 1
+  - startMoment: 720
+    endMoment: 840
+    groupInfoIndex: 28
+    configOn: 1
+  - startMoment: 720
+    endMoment: 840
+    groupInfoIndex: 29
+    configOn: 1
+  - startMoment: 720
+    endMoment: 840
+    groupInfoIndex: 30
+    configOn: 1
+  - startMoment: 780
+    endMoment: 900
+    groupInfoIndex: 31
+    configOn: 1
+  - startMoment: 780
+    endMoment: 900
+    groupInfoIndex: 32
+    configOn: 1
+  - startMoment: 780
+    endMoment: 900
+    groupInfoIndex: 33
+    configOn: 1
+  - startMoment: 840
+    endMoment: 960
+    groupInfoIndex: 34
+    configOn: 1
+  - startMoment: 900
+    endMoment: 1020
+    groupInfoIndex: 35
+    configOn: 1
+  - startMoment: 900
+    endMoment: 1020
+    groupInfoIndex: 36
+    configOn: 1
+  - startMoment: 900
+    endMoment: 1020
+    groupInfoIndex: 37
+    configOn: 1
+  - startMoment: 960
+    endMoment: 1080
+    groupInfoIndex: 38
+    configOn: 1
+  - startMoment: 960
+    endMoment: 1080
+    groupInfoIndex: 39
+    configOn: 1
+  - startMoment: 1020
+    endMoment: 1140
+    groupInfoIndex: 40
+    configOn: 1
+  - startMoment: 1080
+    endMoment: 1200
+    groupInfoIndex: 41
+    configOn: 1
+  - startMoment: 1080
+    endMoment: 1200
+    groupInfoIndex: 42
+    configOn: 1
+  - startMoment: 1140
+    endMoment: 1200
+    groupInfoIndex: 43
+    configOn: 1
+  - startMoment: 1140
+    endMoment: 1200
+    groupInfoIndex: 44
+    configOn: 1
+  orbitEnemyGroupInfos:
+  - index: 0
+    rowCount: 3
+    columnCount: 3
+    rowSpacing: 0.71
+    columnSpacing: 0.71
+    moveSpeed: 2
+    spawnInterval: 10
+    expMultiplier: 1
+  - index: 0
+    rowCount: 4
+    columnCount: 4
+    rowSpacing: 0.71
+    columnSpacing: 0.71
+    moveSpeed: 3
+    spawnInterval: 10
+    expMultiplier: 1
+  - index: 0
+    rowCount: 5
+    columnCount: 5
+    rowSpacing: 0.71
+    columnSpacing: 0.71
+    moveSpeed: 4
+    spawnInterval: 10
+    expMultiplier: 1
+  - index: 0
+    rowCount: 2
+    columnCount: 5
+    rowSpacing: 0.71
+    columnSpacing: 0.71
+    moveSpeed: 5
+    spawnInterval: 10
+    expMultiplier: 1
+  orbitEnemyGroupConfigInfos:
+  - startMoment: 120
+    endMoment: 180
+    groupInfoIndex: 0
+    configOn: 1
+  - startMoment: 240
+    endMoment: 300
+    groupInfoIndex: 1
+    configOn: 1
+  - startMoment: 480
+    endMoment: 540
+    groupInfoIndex: 2
+    configOn: 1
+  - startMoment: 960
+    endMoment: 1020
+    groupInfoIndex: 3
+    configOn: 1
+  ellipseEnemyGroupInfos:
+  - index: 1
+    semiLength: 15
+    circleCount: 1
+    circleSpacing: 0.8
+    moveSpeed: 0.4
+    spawnInterval: 100
+    expMultiplier: 1
+  - index: 1
+    semiLength: 15
+    circleCount: 2
+    circleSpacing: 0.8
+    moveSpeed: 0.6
+    spawnInterval: 100
+    expMultiplier: 1
+  - index: 1
+    semiLength: 15
+    circleCount: 3
+    circleSpacing: 0.8
+    moveSpeed: 0.8
+    spawnInterval: 100
+    expMultiplier: 1
+  ellipseEnemyGroupConfigInfos:
+  - startMoment: 360
+    endMoment: 420
+    groupInfoIndex: 0
+    configOn: 1
+  - startMoment: 720
+    endMoment: 780
+    groupInfoIndex: 1
+    configOn: 1
+  - startMoment: 1020
+    endMoment: 1080
+    groupInfoIndex: 2
+    configOn: 1
+  corkscrewEnemyGroupInfos:
+  - index: 0
+    totalAngle: 720
+    originalDist: 10
+    finalDist: 3
+    circleSpacing: 3
+    radialSpeed: 0.2
+    angularSpeed: 10
+    clockwise: 0
+    spawnInterval: 100
+    expMultiplier: 1
+  corkscrewEnemyGroupConfigInfos:
+  - startMoment: 2
+    endMoment: 60
+    groupInfoIndex: 0
+    configOn: 0
+  generateZoneIncreasement: 4
+  bufferZoneIncreasement: 5
+  maxEnemyCount: 300
+  playerSafeRadius: 5
